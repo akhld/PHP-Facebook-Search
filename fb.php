@@ -1,5 +1,6 @@
 <?php
 
+	error_reporting(0);
 	if(isset($_POST['go'])){
 
 		$access_token = $_POST['access_token'];
